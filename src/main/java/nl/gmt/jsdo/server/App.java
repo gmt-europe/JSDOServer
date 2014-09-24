@@ -11,7 +11,7 @@ public class App {
 
                 server.start();
 
-                System.out.println("Web server started at http://localhost:5851/jsdo");
+                System.out.println("Web server started at http://localhost:5851/jsdo/");
                 System.out.println("Press any key to exit");
                 System.in.read();
             }

@@ -116,7 +116,7 @@ public class JsdoServlet extends HttpServlet {
 
     private void doGetCatalog(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("application/json");
-        resp.addHeader("Content-Disposition", "attachment; filename=\"catalog.jsdo\"");
+        resp.addHeader("Content-Disposition", "attachment; filename=\"catalog.json\"");
 
         new JsdoSchemaSerializer().serialize(
             resp.getWriter(),
